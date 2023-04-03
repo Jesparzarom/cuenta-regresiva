@@ -1,0 +1,43 @@
+#contador {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.div-contador {
+    margin-top: 15px;
+    padding: 20px;
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.234);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.404);
+}
+
+
+.dias {
+    color: rgb(128, 0, 53);
+    font-weight: bold;
+}
+
+
+.horas {
+    color: rgb(64, 0, 128);
+    font-weight: bold;
+}
+
+
+.minutos {
+    color: rgb(0, 26, 128);
+    font-weight: bold;
+}
+
+
+
+.segundos {
+    color: teal;
+    font-weight: bold;
+}
