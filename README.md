@@ -1,4 +1,11 @@
-## Para crear una cuenta regresiva en Javascript que se active mediante un botón en HTML y se muestre en un div, se pueden seguir los siguientes pasos:
+## Cuenta regresiva en Javascript activada mediante un botón e insertación de la misma en un div, se pueden seguir los siguientes pasos:
+
+###### El div retornado en el código js puede ser personalizable con clases css propias o de frameworks.
+
+---
+> ###### DESCARGAR ZIP: https://github.com/Jesparzarom/cuenta-regresiva/archive/refs/heads/main.zip
+
+---
 
 1. En primer lugar, en el archivo HTML, se debe crear un botón con el id "contador" y un div con un id "cuentaAtras" donde se mostrará la cuenta regresiva:
 html
