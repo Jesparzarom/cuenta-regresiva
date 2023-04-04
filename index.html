@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!---------- METAS ---------->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!---------- LINKS ---------->
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <!------ TITULO PESTAÑA ------>
+  <title>Cuenta regresiva</title>
+</head>
+
+<body>
+  <main class="contenedor-main">
+
+    
+    <div class="contenedor-contador">
+      <!---------- EJEMPLO BOTON INICIAR CUENTA REGRESIVA -------->
+      <h4>1-Ejecutar el contador en el mismo documento HTML</h4>
+      <a id="contador">Iniciar</a>
+
+      <!-- EN ESTE DIV VACÍO SE INSERTARA EL CÓDIGO CON LA CUENTA REGRESIVA 
+      GENERADO CON <document.getElementById("cuentaAtras").innerHTML= "..."> 
+      del archivo counterIn.js" -->
+      <div id="cuentaAtras"></div>
+    </div>
+
+
+    <div class="contenedor-contador">
+      <!---------- EJEMPLO BOTON ABRIR CUENTA REGRESIVA EN OTRO HTML-------->
+      <h4>2-Ejecutar el contador en el documento contador.html</h4>
+      <a id="contadorDos" href="./contador.html">Abrir</a>
+    </div>
+
+
+  </main>
+  <!------------------------- SCRIPTS ------------------------->
+  <script src="./js/counterIn.js" type="text/javascript"></script>
+</body>
+
+</html>
